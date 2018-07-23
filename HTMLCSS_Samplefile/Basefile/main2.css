@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.container {
+    padding: 10px;
+    background: red;
+}
+
+.photo {
+    float: left;
+}
+
+.block-box {
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    border: 10px solid green;
+    background-color: aquamarine;
+}

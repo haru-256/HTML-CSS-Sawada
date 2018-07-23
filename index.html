@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta lang="ja">
+    <title>haru_256</title>
+    <link rel="stylesheet" href="stylesheet_pre.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+    <!-- 上はMathJaxの設定．これをheadのなかに書いておけばMathJaxが使える!! -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          TeX: { equationNumbers: {autoNumber: "AMS"} }
+        });
+    </script>
+    <!-- 上はMathJaxに数式番号を入れるためのおまじない -->
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-logo">Progate</div>
+        <div class="header-list">
+            <ul>
+                <li>プログラミングとは</li>
+                <li>学べるレッスン</li>
+                <li>お問い合わせ</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="copy-container">
+            <h1>HELLO WORLD
+                <span>.</span>
+            </h1>
+            <h2>プログラミングの世界へようこそ</h2>
+        </div>
+
+        <div class="contents">
+            <h3 class="section-title">学べるレッスン</h3>
+            <p>\begin{align} \frac{\pi}{2} = \left( \int_{0}^{\infty} \frac{\sin x}{\sqrt{x}} dx \right)^2 = \sum_{k=0}^{\infty}
+                \frac{(2k)!}{2^{2k}(k!)^2} \frac{1}{2k+1} = \prod_{k=1}^{\infty} \frac{4k^2}{4k^2 - 1} \label{hoge} \end{align}
+            </p>
+            <p>MathJaxは美しい. これ\eqref{hoge}は式の参照</p>
+                <p>二階の反対称テンソル \begin{align*} f_{\mu\lambda}= \begin{bmatrix} 0 & cB_z & -cB_y & -iE_x \\ -cB_z & 0 & cB_x &
+                    -iE_y \\ cB_y & -cB_x & 0 & -iE_z \\ iE_x & iE_y & iE_z & 0 \end{bmatrix} \end{align*} になる．
+                </p>
+                <p>式\eqref{eq:Cauchy-Riemann}はコーシー・リーマンの関係式です． \begin{align} &\frac{\partial u}{\partial x}=\frac{\partial v}{\partial
+                    y}& &\frac{\partial u}{\partial y}=-\frac{\partial v}{\partial x}& \label{eq:Cauchy-Riemann} \end{align}
+                    そして，式\eqref{eq:Cauchy-int}はコーシーの積分公式です． \begin{align} \oint_C \frac{f(z)}{z-z_0}=2\pi i f(z_0) \label{eq:Cauchy-int}\end{align}
+                </p>
+                <div class="contents-item">
+                    <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
+                    <p>HTML & CSS</p>
+                </div>
+                <div class="contents-item">
+                    <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
+                    <p>PHP</p>
+                </div>
+                <div class="contents-item">
+                    <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
+                    <p>Ruby</p>
+                </div>
+                <div class="contents-item">
+                    <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
+                    <p>Swift</p>
+                </div>
+        </div>
+
+        <div class="contact-form">
+            <h3 class="section-title">お問い合わせ</h3>
+            <p>メールアドレス（必須） エネルギーと質量には \( E = mc^2 \) の関係がある。
+            </p>
+            <!-- <input>要素を追加してください -->
+            <input>
+
+            <p>お問い合わせ内容（必須）</p>
+            <!-- <textarea>要素を追加してください -->
+            <textarea></textarea>
+
+            <p>※必須項目は必ずご入力ください</p>
+            <!-- <input>要素を追加してください -->
+            <input class="contact-submit" type=submit />
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-logo">Progate</div>
+        <div class="footer-list">
+            <ul>
+                <li>会社概要</li>
+                <li>採用</li>
+                <li>お問い合わせ</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
