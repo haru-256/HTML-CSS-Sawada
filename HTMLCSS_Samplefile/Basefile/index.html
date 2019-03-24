@@ -1,76 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>ベースファイル｜HTML&CSS入門ワークブック</title>
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <p>検索<a href="http:/www.google.co.jp" target="_blank">Google</a></p>
-        <table>
-            <caption>クレープ生地の材料</caption>
-            <colgroup span="2" style="width: 25%">
-            <colgroup span="1">
-                <thead>
-                    <tr>
-                        <th scope="col">材料</th>
-                        <th scope="col">量</th>
-                        <th scope="col">下準備</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">小麦粉</th>
-                        <td rowspan="2" id="hoge">100g</td>
-                        <td>篩に掛ける</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">卵</th>
-                        <!-- <td>1個</td> -->
-                        <td>常温に戻しといておく</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">牛乳</th>
-                        <td>200cc</td>
-                        <td>冷蔵庫から早めに出しておく<br>hoge</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3" bgcolor="#99CCCC" align="right">パスタ倶楽部</td>
-                    </tr>
-                </tfoot>
-        </table>
+  <head>
+    <meta charset="utf-8" />
+    <title>ベースファイル｜HTML&CSS入門ワークブック</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <p>検索<a href="http:/www.google.co.jp" target="_blank">Google</a></p>
+    <table>
+      <caption>
+        クレープ生地の材料
+      </caption>
+      <colgroup span="2" style="width: 25%"></colgroup>
+      <colgroup span="1"></colgroup>
+      <thead>
+        <tr>
+          <th scope="col">材料</th>
+          <th scope="col">量</th>
+          <th scope="col">下準備</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">小麦粉</th>
+          <td rowspan="2" id="hoge">100g</td>
+          <td>篩に掛ける</td>
+        </tr>
+        <tr>
+          <th scope="row">卵</th>
+          <!-- <td>1個</td> -->
+          <td>常温に戻しといておく</td>
+        </tr>
+        <tr>
+          <th scope="row">牛乳</th>
+          <td>200cc</td>
+          <td>冷蔵庫から早めに出しておく<br />hoge</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" bgcolor="#99CCCC" align="right">パスタ倶楽部</td>
+        </tr>
+      </tfoot>
+    </table>
+    <img src="sandwich01.jpg" alt="サンドウィッチ" />
+    <span>
+      サンドウィッチには様々な形がありまっす．あなたはどんなパンがお好き?
+    </span>
+    <div class="block-box">
+      パンを作りには，まず材料を計り下ごしらえが必要だぴょん
+      ほげほげhほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげげ
+    </div>
+    <div class="box">
+      <img src="sandwich01.jpg" alt="hoge" />
+    </div>
 
-        <img src="sandwich01.jpg" alt="サンドウィッチ">
-        <span>
-            サンドウィッチには様々な形がありまっす．あなたはどんなパンがお好き?
-        </span>
-        <div class="block-box">
-            パンを作りには，まず材料を計り下ごしらえが必要だぴょん
-            ほげほげhほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげげ
-        </div>
-        <div class="box">
-            <img src="sandwich01.jpg" alt="hoge">
-        </div>
+    <p>
+      iパンを作るには，まず材料を計り，材料をこね回し，まとめた生地を
+      <strong>一次発酵</strong>．その後整形して<strong>虹発酵</strong>．
+      オーブンで焼けば完成だ．めんどいでしょう
+    </p>
 
-        <p>iパンを作るには，まず材料を計り，材料をこね回し，まとめた生地を
-            <strong>一次発酵</strong>．その後整形して<strong>虹発酵</strong>．
-        オーブンで焼けば完成だ．めんどいでしょう</p>
+    <ul>
+      <li>色おあん</li>
+      <li>バター</li>
+      <li>レタス</li>
+      <li>はむ</li>
+      <li>卵２個</li>
+      <li>スライスチーズ</li>
+      <li>マヨネーズ</li>
+    </ul>
 
-        <ul>
-            <li>色おあん</li>
-            <li>バター</li>
-            <li> レタス</li>
-            <li>はむ</li>
-            <li>卵２個</li>
-            <li>スライスチーズ</li>
-            <li>マヨネーズ</li>
-        </ul>
-
-        <div class="container">
-        <img src="sandwich01.jpg" alt="">
-        <p>サンドイッチには様々な形があります．よくある食パンを二枚使って挟むものから，ロールパン，フランスパン，クロワッサンなどに切り込みをいれ，その中にぐを挟んだものなど様々です．あなたはどんなサンドウィッチが好きですか．</p>
-        </div>
-    </body>
+    <div class="container">
+      <img src="sandwich01.jpg" alt="" />
+      <p>
+        サンドイッチには様々な形があります．よくある食パンを二枚使って挟むものから，ロールパン，フランスパン，クロワッサンなどに切り込みをいれ，その中にぐを挟んだものなど様々です．あなたはどんなサンドウィッチが好きですか．
+      </p>
+    </div>
+  </body>
 </html>
