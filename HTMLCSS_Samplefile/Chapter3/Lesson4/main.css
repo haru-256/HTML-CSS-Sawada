@@ -1,9 +1,0 @@
-@charset "utf-8";
-
-.link:link{
-    color: red;
-}
-.link:hover{
-    color: #FFFF00;
-}
-

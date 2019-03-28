@@ -1,8 +1,0 @@
-@charset "utf-8";
-
-ul {
-  list-style-type: square;
-}
-li {
-  list-style-position: inside;
-}
